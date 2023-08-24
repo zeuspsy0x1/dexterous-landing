@@ -6,7 +6,7 @@ import hamburgerIcon from '@/assets/hamburger-icon.png'
 import closeIcon from '@/assets/x-icon.png'
 
 const NavigationMenuMobile = () => {
-	const [showNavigation, setShowNavigation] = useState(false)
+	const [showNavigation, setShowNavigation] = useState(true)
 
 	return (
 		<div className='absolute z-50'>
