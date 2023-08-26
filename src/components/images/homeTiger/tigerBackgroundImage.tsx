@@ -4,8 +4,8 @@ import tiger from '@/assets/tiger-half.png'
 
 const TigerBackgroundImage = () => {
 	return (
-		<div className='w-[100vw] '>
-			<Image fill={false} src={tiger} alt='adwda awdaw d' />
+		<div className='w-[100vw] opacity-30'>
+			<Image fill={false} src={tiger} alt='tiger image' />
 		</div>
 	)
 }

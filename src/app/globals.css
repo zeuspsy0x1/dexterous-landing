@@ -5,8 +5,9 @@
 :root {
   --white-letters-color: #E3E3E3;
   --body-background-color: #050505;
+  --red-letters-color: #D3545F;
 }
- 
+
 
 body {
   background-color: var(--body-background-color);
