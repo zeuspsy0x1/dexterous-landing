@@ -5,20 +5,20 @@ import Image from 'next/image'
 
 const Home = () => {
 	return (
-		<section id='home' className='h-[100vh]'>
+		<section id='home' className='h-[110%] xl:hidden'>
 			<NavigationMenuMobile />
 
-			<picture className='absolute z-0 '>
+			<picture className=' z-0 '>
 				<TigerBackgroundImage />
 			</picture>
 
-			<div className='absolute z-40 flex flex-col mt-[50vh] h-screen ml-4'>
-				<span className={' text-5xl '}>Dexterous</span>
+			<div className=' z-40 flex flex-col -mt-[40vh] md:-mt-[60vh] h-screen ml-4'>
+				<h1 className={' text-5xl md:text-8xl z-40'}>Dexterous</h1>
 
-				<span className='text-base'>Desafía los límites con tu destreza</span>
+				<span className='text-base md:text-3xl ml-1 z-40'>Desafía los límites con tu destreza</span>
 			</div>
 
-			<div className='absolute inset-x-0 flex flex-col justify-center mt-[80vh] items-center opacity-50'>
+			<div className='absolute inset-x-0 flex flex-col justify-center -mt-[68vh] md:-mt-[20vh] items-center opacity-50 md:hidden'>
 				<div className='grid place-items-center'>
 					<Image src={arrow} alt='arrow image' />
 				</div>
