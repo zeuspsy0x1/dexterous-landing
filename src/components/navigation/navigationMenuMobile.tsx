@@ -10,11 +10,11 @@ const NavigationMenuMobile = () => {
 	const [showNavigation, setShowNavigation] = useState(true)
 
 	return (
-		<div className='fixed z-50'>
+		<div className='fixed z-50 md:hidden '>
 			{showNavigation ? (
-				<div className='flex w-[100vw]  mt-6 justify-end'>
+				<div className='flex w-[100vw] mt-6 justify-end'>
 					<div
-						className=' mr-5'
+						className='mr-5'
 						onClick={() => {
 							setShowNavigation((booleanState) => !booleanState)
 						}}>
@@ -22,7 +22,7 @@ const NavigationMenuMobile = () => {
 					</div>
 				</div>
 			) : (
-				<div className='w-[100vw] h-[100vh] bg-[var(--body-background-color)]'>
+				<div className='w-[100dvw] h-[100vh] bg-[var(--body-background-color)]'>
 					<div className='flex  justify-end'>
 						<div
 							className='mt-6 mr-5 h-12 overflow-visible'
