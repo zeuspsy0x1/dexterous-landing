@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
+
 :root {
   --white-letters-color: #E3E3E3;
   --body-background-color: #050505;
@@ -12,4 +16,11 @@
 body {
   background-color: var(--body-background-color);
   color: var(--white-letters-color);
+}
+
+html, body {
+  max-width: 100dvw;
+  height: 100%;
+  width: 100%;
+  font-display: swap;
 }

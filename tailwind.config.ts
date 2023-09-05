@@ -41,6 +41,9 @@ module.exports = {
       boxShadow: {
         'blur-red': '0 0 3px 3px rgba(255, 0, 0, 0.5)',
       },
+      backgroundColor: {
+        'custom-neutral-900': '#0A0A0A',
+      },
     },
   },
   plugins: [],
