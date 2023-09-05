@@ -1,0 +1,7 @@
+.stroke-text {
+  /* The color of the stroke */
+  -webkit-text-stroke: 4px #D3545F;
+  
+  /* Make the fill color transparent */
+  color: transparent;
+}
