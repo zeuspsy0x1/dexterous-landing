@@ -49,7 +49,7 @@ const Caracteristicas = () => {
 	return (
 		<section id='caracteristicas' className='mt-20 xl:hidden'>
 			<div className='grid place-items-center'>
-				<h2 className=' text-5xl lg:text-7xl '>Características</h2>
+				<h2 className=' text-5xl lg:text-7xl 2k:text-8xl '>Características</h2>
 			</div>
 			<div className='mt-12'>{mappedCharacteristics}</div>
 		</section>
