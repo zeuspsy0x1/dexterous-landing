@@ -10,25 +10,25 @@ import LinkImage from 'next/link'
 const Comprar = () => {
 	return (
 		<section id='comprar' className='grid place-items-center mt-20 '>
-			<h2 className='text-5xl lg:text-7xl lg:mb-4'>Comprar</h2>
+			<h2 className='text-5xl lg:text-7xl lg:mb-4 2k:text-8xl'>Comprar</h2>
 
 			<LinkImage
 				href='https://www.linkedin.com/in/zeus1337/'
 				target='_blank'
-				className='px-12 py-4 mx-10 mt-12 border border-neutral-700 rounded-lg bg-custom-neutral-900  md:w-2/4 lg:w-1/3 xl:w-1/4'>
+				className='px-8 py-4 mx-10 mt-12 border border-neutral-700 rounded-lg bg-custom-neutral-900 w-72 2k:w-96'>
 				<picture className='w-11/12'>
 					<Image src={mercadolibreLogo} alt='Mercadolibre Logo' />
 				</picture>
 			</LinkImage>
 
-			<span className='text-sm text-center opacity-30 mt-2 lg:text-base'>Envíos a toda Colombia</span>
+			<span className='text-sm text-center opacity-30 mt-2 lg:text-base 2k:text-2xl'>Envíos a toda Colombia</span>
 
-			<span className='text-2xl mt-8 lg:text-3xl'>¿Preguntas?</span>
+			<span className='text-2xl mt-8 lg:text-3xl 2k:text-4xl'>¿Preguntas?</span>
 
 			<LinkImage
-				href='https://www.linkedin.com/in/zeus1337/'
+				href='https://wa.me/+573206469387'
 				target='_blank'
-				className='px-12 py-4 mx-10 mt-8 border border-neutral-700 rounded-lg bg-custom-neutral-900 md:w-2/4 lg:w-1/3 xl:w-1/4'>
+				className='px-8 py-4 mx-10 mt-8 border border-neutral-700 rounded-lg bg-custom-neutral-900 w-72 2k:w-96'>
 				<picture className='w-9/12'>
 					<Image src={whatsAppLogo} alt='WhatsApp logo' />
 				</picture>

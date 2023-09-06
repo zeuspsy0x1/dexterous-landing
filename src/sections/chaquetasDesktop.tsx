@@ -9,11 +9,11 @@ const Chaquetas = () => {
 		<div id='chaquetas' className='hidden lg:block mt-20'>
 			<div className='grid place-items-center'>
 				<div className='flex flex-col items-end'>
-					<h2 className='text-5xl lg:text-7xl mb-4 place-self-start'>Chaquetas</h2>
+					<h2 className='text-5xl 2k:text-8xl  lg:text-7xl mb-4 place-self-start '>Chaquetas</h2>
 				</div>
 			</div>
 			<div className='grid place-items-center mt-8'>
-				<div className='absolute stroke-text flex flex-col text-7xl right-[7.5vw] '>
+				<div className='absolute stroke-text flex flex-col text-7xl 2k:text-8xl right-[7.5vw] '>
 					<span>2</span>
 					<span>0</span>
 					<span>2</span>

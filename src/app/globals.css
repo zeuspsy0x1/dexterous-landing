@@ -24,3 +24,10 @@ html, body {
   width: 100%;
   font-display: swap;
 }
+
+
+@media screen and (min-width: 2561px) {
+  body {
+    zoom: 1.5;  /* 150% Zoom */
+  }
+}
