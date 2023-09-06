@@ -6,7 +6,7 @@ import './chaquetasDesktop.css'
 
 const Chaquetas = () => {
 	return (
-		<div id='chaquetas' className='hidden lg:block mt-20'>
+		<div id='chaquetasDesktop' className='hidden lg:block mt-20'>
 			<div className='grid place-items-center'>
 				<div className='flex flex-col items-end'>
 					<h2 className='text-5xl 2k:text-8xl  lg:text-7xl mb-4 place-self-start '>Chaquetas</h2>

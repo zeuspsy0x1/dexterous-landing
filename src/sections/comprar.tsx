@@ -9,11 +9,11 @@ import LinkImage from 'next/link'
 
 const Comprar = () => {
 	return (
-		<section id='comprar' className='grid place-items-center mt-20 '>
+		<section id='comprar' className='grid place-items-center mt-20 xl:pb-40'>
 			<h2 className='text-5xl lg:text-7xl lg:mb-4 2k:text-8xl'>Comprar</h2>
 
 			<LinkImage
-				href='https://www.linkedin.com/in/zeus1337/'
+				href='https://dexterous.mercadoshops.com.co/'
 				target='_blank'
 				className='px-8 py-4 mx-10 mt-12 border border-neutral-700 rounded-lg bg-custom-neutral-900 w-72 2k:w-96'>
 				<picture className='w-11/12'>
