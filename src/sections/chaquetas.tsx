@@ -3,7 +3,7 @@ import React from 'react'
 
 const Chaquetas = () => {
 	return (
-		<section id='chaquetas' className='md:mt-56 xl:hidden'>
+		<section id='chaquetas' className='  md:mt-[300px]   lg:hidden'>
 			<div className='grid place-items-center'>
 				<div className='flex flex-col items-end'>
 					<h2 className='text-5xl lg:text-7xl '>Chaquetas</h2>

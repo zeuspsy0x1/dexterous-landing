@@ -47,7 +47,7 @@ const Caracteristicas = () => {
 	})
 
 	return (
-		<section id='caracteristicas' className='mt-20 xl:hidden'>
+		<section id='caracteristicas' className='mt-20 lg:hidden'>
 			<div className='grid place-items-center'>
 				<h2 className=' text-5xl lg:text-7xl 2k:text-8xl '>Características</h2>
 			</div>

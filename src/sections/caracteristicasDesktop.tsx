@@ -4,7 +4,7 @@ import caracteristicasImage from '@/assets/paw.png'
 
 const CaracteristicasDesktop = () => {
 	return (
-		<div id='chaquetas' className='hidden lg:block mt-20'>
+		<div id='caracteristicasDesktop' className='hidden lg:block mt-20'>
 			<div className='grid place-items-center'>
 				<h2 className='text-5xl lg:text-7xl mb-4 2k:text-8xl'>Características</h2>
 

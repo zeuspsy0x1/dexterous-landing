@@ -2,11 +2,12 @@ import TigerDesktopBackgroundImage from '@/components/images/homeTiger/tigerDesk
 import NavigationMenuMobile from '@/components/navigation/navigationMenuMobile'
 import arrow from '@/assets/arrow.svg'
 import Image from 'next/image'
+import NavigationMenuDesktop from '@/components/navigation/navigationMenuDesktop'
 
 const HomeDesktop = () => {
 	return (
 		<section id='home' className='hidden xl:block w-full '>
-			<NavigationMenuMobile />
+			<NavigationMenuDesktop />
 
 			<picture className=' z-0 '>
 				<TigerDesktopBackgroundImage />
